@@ -110,8 +110,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.universal7580.so:system/lib/hw/camera.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     $(LOCAL_PATH)/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    $(LOCAL_PATH)/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     $(LOCAL_PATH)/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
+    $(LOCAL_PATH)/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_3l2.bin:system/vendor/firmware/setfile_3l2.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_5e3.bin:system/vendor/firmware/setfile_5e3.bin \
     $(LOCAL_PATH)/proprietary/etc/firmware/dbd2_fw.bin:system/etc/firmware/dbd2_fw.bin \
@@ -147,4 +147,34 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
+    $(LOCAL_PATH)/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
+    $(LOCAL_PATH)/proprietary/lib/hw/hwcomposer.exynos5.so:system/lib/hw/hwcomposer.exynos5.so \
+    $(LOCAL_PATH)/proprietary/lib/libcontrolcsc.so:system/lib/libcontrolcsc.so \
+    $(LOCAL_PATH)/proprietary/lib/libcsc.so:system/lib/libcsc.so \
+    $(LOCAL_PATH)/proprietary/lib/libdisplay.so:system/lib/libdisplay.so \
+    $(LOCAL_PATH)/proprietary/lib/libdisplaymodule.so:system/lib/libdisplaymodule.so \
+    $(LOCAL_PATH)/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
+    $(LOCAL_PATH)/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
+    $(LOCAL_PATH)/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
+    $(LOCAL_PATH)/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
+    $(LOCAL_PATH)/proprietary/lib/libexynosv4l2.so:system/lib/libexynosv4l2.so \
+    $(LOCAL_PATH)/proprietary/lib/libhdcp2.so:system/lib/libhdcp2.so \
+    $(LOCAL_PATH)/proprietary/lib/libhdmi.so:system/lib/libhdmi.so \
+    $(LOCAL_PATH)/proprietary/lib/libhdmimodule.so:system/lib/libhdmimodule.so \
+    $(LOCAL_PATH)/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
+    $(LOCAL_PATH)/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
+    $(LOCAL_PATH)/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
+    $(LOCAL_PATH)/proprietary/lib/libion.so:system/lib/libion.so \
+    $(LOCAL_PATH)/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
+    $(LOCAL_PATH)/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+    $(LOCAL_PATH)/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    $(LOCAL_PATH)/proprietary/lib/libmpp.so:system/lib/libmpp.so \
+    $(LOCAL_PATH)/proprietary/lib/libOpensslReg.so:system/lib/libOpensslReg.so \
+    $(LOCAL_PATH)/proprietary/lib/libopensslsmime.so:system/lib/libopensslsmime.so \
+    $(LOCAL_PATH)/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    $(LOCAL_PATH)/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
+    $(LOCAL_PATH)/proprietary/lib/libvdis_core.so:system/lib/libvdis_core.so \
+    $(LOCAL_PATH)/proprietary/lib/libvdis_interface.so:system/lib/libvdis_interface.so \
+    $(LOCAL_PATH)/proprietary/lib/libvirtualdisplay.so:system/lib/libvirtualdisplay.so \
+    $(LOCAL_PATH)/proprietary/lib/libvirtualdisplaymodule.so:system/lib/libvirtualdisplaymodule.so
