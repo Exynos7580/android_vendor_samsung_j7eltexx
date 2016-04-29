@@ -173,6 +173,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libOpensslReg.so:system/lib/libOpensslReg.so \
     $(LOCAL_PATH)/proprietary/lib/libopensslsmime.so:system/lib/libopensslsmime.so \
     $(LOCAL_PATH)/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+    $(LOCAL_PATH)/proprietary/lib/libstagefright_yuv.so:system/lib/libstagefright_yuv.so \
     $(LOCAL_PATH)/proprietary/lib/libsxqk_skia.so:system/lib/libsxqk_skia.so \
     $(LOCAL_PATH)/proprietary/lib/libvdis_core.so:system/lib/libvdis_core.so \
     $(LOCAL_PATH)/proprietary/lib/libvdis_interface.so:system/lib/libvdis_interface.so \
