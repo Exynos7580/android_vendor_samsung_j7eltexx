@@ -165,7 +165,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libhwcutils.so:system/lib/libhwcutils.so \
     $(LOCAL_PATH)/proprietary/lib/libhwcutilsmodule.so:system/lib/libhwcutilsmodule.so \
     $(LOCAL_PATH)/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
-    $(LOCAL_PATH)/proprietary/lib/libion.so:system/lib/libion.so \
     $(LOCAL_PATH)/proprietary/lib/libion_exynos.so:system/lib/libion_exynos.so \
     $(LOCAL_PATH)/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     $(LOCAL_PATH)/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
