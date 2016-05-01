@@ -152,6 +152,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/bin/cs:system/bin/cs \
     $(LOCAL_PATH)/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     $(LOCAL_PATH)/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
+    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.exynos5.so:system/vendor/lib/hw/gralloc.exynos5.so \
     $(LOCAL_PATH)/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
     $(LOCAL_PATH)/proprietary/lib/libOpensslReg.so:system/lib/libOpensslReg.so \
     $(LOCAL_PATH)/proprietary/lib/libopensslsmime.so:system/lib/libopensslsmime.so \
