@@ -149,12 +149,4 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    $(LOCAL_PATH)/proprietary/bin/cs:system/bin/cs \
-    $(LOCAL_PATH)/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
-    $(LOCAL_PATH)/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/hw/gralloc.exynos5.so:system/vendor/lib/hw/gralloc.exynos5.so \
-    $(LOCAL_PATH)/proprietary/lib/libExynosHWCService.so:system/lib/libExynosHWCService.so \
-    $(LOCAL_PATH)/proprietary/lib/libOpensslReg.so:system/lib/libOpensslReg.so \
-    $(LOCAL_PATH)/proprietary/lib/libopensslsmime.so:system/lib/libopensslsmime.so \
-    $(LOCAL_PATH)/proprietary/lib/libvdis_core.so:system/lib/libvdis_core.so \
-    $(LOCAL_PATH)/proprietary/lib/libvdis_interface.so:system/lib/libvdis_interface.so
+    $(LOCAL_PATH)/proprietary/bin/cs:system/bin/cs
