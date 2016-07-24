@@ -106,7 +106,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43430A1_V0032.0076.hcd:system/vendor/firmware/bcm43430A1_V0032.0076.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43438A1_V0051.0218.hcd:system/vendor/firmware/bcm43438A1_V0051.0218.hcd \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.universal7580.so:system/lib/hw/camera.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     $(LOCAL_PATH)/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
@@ -114,7 +114,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_3l2.bin:system/vendor/firmware/setfile_3l2.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_5e3.bin:system/vendor/firmware/setfile_5e3.bin \
-    $(LOCAL_PATH)/proprietary/etc/firmware/dbd2_fw.bin:system/etc/firmware/dbd2_fw.bin \
     $(LOCAL_PATH)/proprietary/bin/gps.cer:system/bin/gps.cer \
     $(LOCAL_PATH)/proprietary/bin/gpsd:system/bin/gpsd \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.universal7580.so:system/lib/hw/gps.universal7580.so \
@@ -135,18 +134,29 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
     $(LOCAL_PATH)/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/07010000000000000000000000000000.tlbin:system/app/mcRegistry/07010000000000000000000000000000.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/07060000000000000000000000000000.tlbin:system/app/mcRegistry/07060000000000000000000000000000.tlbin \
-    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/08130000000000000000000000000000.tlbin:system/app/mcRegistry/08130000000000000000000000000000.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff00000000000000000000000a.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000a.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff00000000000000000000000c.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000c.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff00000000000000000000000d.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000d.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff00000000000000000000000f.tlbin:system/app/mcRegistry/ffffffff00000000000000000000000f.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000004.tlbin:system/app/mcRegistry/ffffffff000000000000000000000004.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000005.tlbin:system/app/mcRegistry/ffffffff000000000000000000000005.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000012.tlbin:system/app/mcRegistry/ffffffff000000000000000000000012.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000013.tlbin:system/app/mcRegistry/ffffffff000000000000000000000013.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000016.tlbin:system/app/mcRegistry/ffffffff000000000000000000000016.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000017.tlbin:system/app/mcRegistry/ffffffff000000000000000000000017.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000019.tlbin:system/app/mcRegistry/ffffffff000000000000000000000019.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000021.tlbin:system/app/mcRegistry/ffffffff000000000000000000000021.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffff000000000000000000000041.tlbin:system/app/mcRegistry/ffffffff000000000000000000000041.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd00000000000000000000004.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000004.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
+    $(LOCAL_PATH)/proprietary/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin:system/app/mcRegistry/FFFFFFFFD00000000000000000000016.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    $(LOCAL_PATH)/proprietary/bin/cs:system/bin/cs
+    $(LOCAL_PATH)/proprietary/bin/cs:system/bin/cs \
+    $(LOCAL_PATH)/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
+    $(LOCAL_PATH)/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+    $(LOCAL_PATH)/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so
