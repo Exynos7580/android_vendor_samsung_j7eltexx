@@ -17,7 +17,6 @@
 LOCAL_PATH := vendor/samsung/j7eltexx
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/etc/firmware/dbmd2_vqe_fw_i2c.bin:system/etc/firmware/dbmd2_vqe_fw_i2c.bin \
     $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
     $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_mfg.bin:system/etc/wifi/bcmdhd_mfg.bin \
     $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_sta.bin:system/etc/wifi/bcmdhd_sta.bin \
@@ -106,7 +105,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
-    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43438A1_V0051.0218.hcd:system/vendor/firmware/bcm43438A1_V0051.0218.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43438A1_V0051.0221.hcd:system/vendor/firmware/bcm43438A1_V0051.0221.hcd \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43455_V0106.0154.hcd:system/vendor/firmware/bcm43455_V0106.0154.hcd \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.universal7580.so:system/lib/hw/camera.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     $(LOCAL_PATH)/proprietary/lib/libhwjpeg.so:system/lib/libhwjpeg.so \
@@ -132,6 +132,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
+    $(LOCAL_PATH)/proprietary/app/020a0000000000000000000000000000.drbin:system/app/020a0000000000000000000000000000.drbin \
     $(LOCAL_PATH)/proprietary/app/FFFFFFFF000000000000000000000001.drbin:system/app/FFFFFFFF000000000000000000000001.drbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/00060308060501020000000000000000.tlbin:system/app/mcRegistry/00060308060501020000000000000000.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/02010000080300030000000000000000.tlbin:system/app/mcRegistry/02010000080300030000000000000000.tlbin \
