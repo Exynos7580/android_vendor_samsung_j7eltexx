@@ -105,6 +105,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt:system/vendor/etc/nxp/mVoIPSec/Tx_ControlParams_WIDEBAND_WIRED_HEADSET.txt \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblvverx_3.27.02.so:system/vendor/lib/liblvverx_3.27.02.so \
     $(LOCAL_PATH)/proprietary/vendor/lib/liblvvetx_3.27.02.so:system/vendor/lib/liblvvetx_3.27.02.so \
+    $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43430A1_V0032.0076.hcd:system/vendor/firmware/bcm43430A1_V0032.0076.hcd \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43438A1_V0051.0221.hcd:system/vendor/firmware/bcm43438A1_V0051.0221.hcd \
     $(LOCAL_PATH)/proprietary/vendor/firmware/bcm43455_V0106.0154.hcd:system/vendor/firmware/bcm43455_V0106.0154.hcd \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.universal7580.so:system/lib/hw/camera.universal7580.so \
