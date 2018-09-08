@@ -29,10 +29,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsensorlistener.so:system/lib/libsensorlistener.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_3l2.bin:system/vendor/firmware/setfile_3l2.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_5e3.bin:system/vendor/firmware/setfile_5e3.bin \
-    $(LOCAL_PATH)/proprietary/bin/gps.cer:system/bin/gps.cer \
     $(LOCAL_PATH)/proprietary/lib/hw/gps.universal7580.so:system/lib/hw/gps.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/libwrappergps.so:system/lib/libwrappergps.so \
-    $(LOCAL_PATH)/proprietary/vendor/lib/egl/libGLES_mali.so:system/vendor/lib/egl/libGLES_mali.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/mfc_fw.bin:system/vendor/firmware/mfc_fw.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/fimc_is_fd.bin:system/vendor/firmware/fimc_is_fd.bin \
     $(LOCAL_PATH)/proprietary/vendor/firmware/fimc_is_fw2_3l2.bin:system/vendor/firmware/fimc_is_fw2_3l2.bin \
